@@ -1,16 +1,50 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data-Archiv</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data-Archive</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+    }
+    .box {
+      width: 150px;
+      height: 150px;
+      background-color: #f0f0f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5em;
+      border-radius: 10px;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+      color: black;
+    }
+    .box:hover {
+      background-color: #ccc;
+    }
+  </style>
 </head>
 <body>
-    <h1>Data-Archiv</h1>
-    <p>Alle Daten können im folgenden Ordner auf GitHub gefunden werden:</p>
-    
-    <a href="https://github.com/Blainstorm2015/Archive/tree/main/Data" target="_blank">
-        Hier klicken, um zum Ordner zu gelangen
-    </a>
+
+  <h1>Data-Archive</h1>
+  
+  <div class="container">
+    <a href="upload.html" class="box">Upload</a>
+    <a href="download.html" class="box">Download</a>
+  </div>
+
 </body>
 </html>
